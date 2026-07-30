@@ -1,0 +1,28 @@
+# AI Models
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# ComfyUI runtime
+.comfyui.lock
+.comfyui.pid
+.comfyui.shutdown
+
+# Generated files
+output/
+input/
+temp/
+
+# Databases
+*.db
+
+# Backups
+backups/*
+!backups/.gitkeep
